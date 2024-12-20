@@ -5,7 +5,7 @@ import os
 from routers import app_routes
 from db_module.db import db
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/jehan/idp_bootcamp/week_7_assign/empirical-oven-442516-n0-976bfa04c47e.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './empirical-oven-442516-n0-976bfa04c47e.json'
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///uploads.db'
