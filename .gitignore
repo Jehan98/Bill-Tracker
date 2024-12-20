@@ -3,4 +3,4 @@ google-cloud-sdk/
 idp-env/
 *.jpeg
 *.jpg
-*.db
+instance/
